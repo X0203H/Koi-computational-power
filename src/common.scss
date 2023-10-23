@@ -1,0 +1,15 @@
+	$color:red;
+	$background:#121316;
+	$fontSize:24px;
+	$distance:5pt;
+	
+	#app {
+		width: auto;
+		background-color: $background;
+		
+		// 安全盒
+		.secureCase{
+			padding: 6pt 5pt;
+			color: red;
+		}
+	}

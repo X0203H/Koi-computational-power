@@ -1,0 +1,64 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index"
+		},
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/product/index"
+		},
+		{
+			"path": "pages/equipment/index"
+		},
+		{
+			"path": "pages/discover/index"
+		}
+	],
+	"subPackages": [{
+		"root": "subdue",
+		"pages": [{
+			"path": "duePag/index"
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#ffffff",
+		"selectedColor": "#ffffff",
+		"borderStyle": "black",
+		"backgroundColor": "#121317",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/Home/tabbar_home.png",
+				"selectedIconPath": "static/images/Home/tabbar_home_nor.png"
+			},
+			{
+				"pagePath": "pages/product/index",
+				"text": "商品",
+				"iconPath": "static/images/Shop/tabbar_shop.png",
+				"selectedIconPath": "static/images/Shop/tabbar_shop_nor.png"
+			},
+			{
+				"pagePath": "pages/equipment/index",
+				"text": "设备",
+				"iconPath": "static/images/Unit/tabbar_unit.png",
+				"selectedIconPath": "static/images/Unit/tabbar_unit_nor.png"
+			},
+			{
+				"pagePath": "pages/discover/index",
+				"text": "发现",
+				"iconPath": "static/images/Discover/tabbar_discover.png",
+				"selectedIconPath": "static/images/Discover/tabbar_discover_nor.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
